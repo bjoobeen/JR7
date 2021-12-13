@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <mark><span>words</span></mark> <!--highlighted-->
+        <span><mark>wERDS</mark></span> <!--highlighted and on same line-->
+        <mark><span style="display:block">WORDS</span></mark> <!--Not highlighted-->
+        <mark><span style="display:block">words</span></mark> <!--Not highlighted-->
+        <br>
+        <mark><span>words</span></mark> <!--highlighted-->
+        <mark><span>words</span></mark> <!--highlighted and inline-->
+        <mark><div>w0rds in a div?</div></mark> <!--Not highlighted-->
+        <span>words in a span</span>
+        <br>
+        <br>
+        <mark><span style="display:block">words2</span></mark>
+        <br>
+        <mark><span style="display:block">words</span></mark>
+        <br>
+        <mark><span>words</span></mark>
+        <br>
+        <p>I am another paragraph. Some of the <span style="display:block"><mark>words</mark></span> have been wrapped in a <mark><span>span
+            element</span></mark>.</p>
+    </body>
+</html>
