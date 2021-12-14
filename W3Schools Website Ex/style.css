@@ -65,7 +65,6 @@ main {
     flex-direction: column;
     padding: 20px;
     flex: 30%;
-    align-items: center;
     width:fit-content;
 }
 
@@ -74,4 +73,10 @@ main {
     border: dotted blue;
     flex: 70%;
     padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
 }
