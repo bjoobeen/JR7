@@ -14,24 +14,24 @@ header {
 }
 
 .navbar {
-    display: flex;
     background-color: rgb(170, 75, 75);
-    text-align: center;
-  
 }
 
 .navbar a {
-    display: block;
-    color: white;
+    display: flex;
+    color: whitesmoke;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
 }
 
 .nav-links-left {
-    display: block;
-    text-decoration: none;
-    color: antiquewhite;
+    justify-content: start;
+}
+
+#nav-links-right {
+    justify-content: flex-end;
+    text-align: right;
 }
 
 .navbar a:hover {
@@ -39,6 +39,39 @@ header {
     color: black;
 }
 
-.links {
-    color: white;
+.flex {
+    display: flex;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    height: 200px;
+    width: auto;
+    padding: 20px;
+}
+
+.about-me-fake-img {
+
+}
+
+main {
+    flex-direction: row;
+    display: inline-flex;
+    border: solid rgb(55, 68, 30);
+}
+
+.about-me {
+    border: solid yellowgreen;
+    flex-direction: column;
+    padding: 20px;
+    flex: 30%;
+    align-items: center;
+    width:fit-content;
+}
+
+.main-column {
+    flex-direction: column;
+    border: dotted blue;
+    flex: 70%;
+    padding: 20px;
 }
