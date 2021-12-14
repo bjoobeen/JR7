@@ -32,6 +32,8 @@ header {
 #nav-links-right {
     justify-content: flex-end;
     text-align: right;
+    display: flex;
+    justify-content: end;
 }
 
 .navbar a:hover {
