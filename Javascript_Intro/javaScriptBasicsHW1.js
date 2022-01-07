@@ -31,9 +31,15 @@ console.log(numMult);
 //Ex2 (a - b)
 
 // (a)
-
 var string1 = "Hello";
 var string2 = " World";
 
 var concat = string1 + string2;
 console.log(concat);
+
+// (b)
+var favFoodString = "My favorite food is ";
+var favFood = "foi gras.";
+
+var finalString = favFoodString + favFood;
+console.log(finalString);
