@@ -36,3 +36,16 @@ console.log(subtract);
 var remainder = dbleFloat % int2;
 console.log(remainder);
 
+// (5)
+var string2 = "I am string1 - yippeee! ";
+var string3 = "BUT, I like string2 better...";
+
+var concat = string2 + string3;
+console.log(concat);
+
+// (6)
+var string4 = "the answer to life, the universe, and everything IS ";
+var int2 = 42
+
+var combo = string4 + int2;
+console.log(combo);
