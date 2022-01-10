@@ -42,5 +42,5 @@ function myGradeFunction(x) {
     }
 }
 
-var result = myGradeFunction();
+var result = myGradeFunction(95);
 console.log(result);
