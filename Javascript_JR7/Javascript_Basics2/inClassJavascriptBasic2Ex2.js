@@ -40,3 +40,11 @@ function sentenceName(name) {
 console.log(sentenceName("lando"));
 
 //Ex5
+
+function threeNumberArg(num1, num2, num3) {
+    var biggestNumber = Math.max(num1,num2,num3);
+    return biggestNumber;
+}    
+
+console.log(threeNumberArg(1,2,5));
+//other methods?
