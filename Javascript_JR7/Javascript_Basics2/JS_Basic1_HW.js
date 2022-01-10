@@ -1,7 +1,7 @@
 //Grade Calculator
 
 function myGradeFunction(x) {
-    if (x <= 98) {
+    if (x >= 98) {
         return "A+";
     }
     else if (x >= 92) {
@@ -37,9 +37,8 @@ function myGradeFunction(x) {
     else if (x >= 62) {
         return "D-";
     }
-    else (x < 60) {
+    else (x < 60) 
         return "F";
-    }
 }
 
 var result = myGradeFunction(95);
