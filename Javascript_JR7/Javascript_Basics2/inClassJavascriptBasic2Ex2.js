@@ -11,7 +11,13 @@ function favMovie() {
 favMovie();
 
 //Ex3
-function oneArg(num1) {
-    num1 * 100;
-    re
+function oneArg(num) {
+    var answer = num * 100;
+    return answer;
 }
+
+var result = oneArg(10);
+
+console.log(result);
+
+//Ex4
