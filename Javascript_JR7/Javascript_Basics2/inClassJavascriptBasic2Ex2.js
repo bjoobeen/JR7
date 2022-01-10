@@ -21,3 +21,22 @@ var result = oneArg(10);
 console.log(result);
 
 //Ex4
+let sentence1 = "the beginning of the sentence and my name is ";
+let sentence2 = ' and the sentence ends';
+
+//1st Method
+var nameSentence = function(name) {
+    return sentence1 + name + sentence2;     
+}
+
+console.log(nameSentence("brawndo"));
+
+//2nd Method
+function sentenceName(name) {
+    var concate = sentence1 + name + sentence2;
+    return concate;
+}
+
+console.log(sentenceName("lando"));
+
+//Ex5
