@@ -6,7 +6,7 @@ myFunction();
 
 //Ex2
 function favMovie() {
-    return console.log("My favorite movie is Kagemusha.");
+    return console.log("My favorite movie is Rumble Fish.");
 }
 favMovie();
 
@@ -48,3 +48,14 @@ function threeNumberArg(num1, num2, num3) {
 
 console.log(threeNumberArg(1,2,5));
 //other methods?
+
+//Ex6
+function conCat(first, second, third) {
+    return first + second + third;
+}
+
+var result = conCat("What ","gives? ");
+
+console.log(result);
+//
+

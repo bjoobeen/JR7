@@ -37,9 +37,9 @@ function myGradeFunction(x) {
     else if (x >= 62) {
         return "D-";
     }
-    else (x < 60) 
+    else
         return "F";
 }
 
-var result = myGradeFunction(95);
+var result = myGradeFunction("10");
 console.log(result);
