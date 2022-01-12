@@ -10,7 +10,7 @@ function tipFunction(total, tip) {
     console.log("Tip percentage is " + percentage + "%");
 
     if (percentage <= 5 && percentage > 0) {
-        console.log( "You are an awful tipper");
+        return "You are an awful tipper";
     } else if (percentage > 5 && percentage <= 10) {
         console.log( "You are an Ok tipper!");
     } else if (percentage > 10 && percentage <= 20) {
