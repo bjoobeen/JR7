@@ -22,4 +22,4 @@ function tipFunction(total, tip) {
     }
 }           
 
-console.log(tipFunction(200, 10));
+tipFunction(200, 10);
