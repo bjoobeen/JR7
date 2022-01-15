@@ -121,3 +121,4 @@ while (arrayTenItems.length > 0 ) {
     console.log(arrayTenItems.pop());
 }
 
+console.log("Code is no longer executing");
