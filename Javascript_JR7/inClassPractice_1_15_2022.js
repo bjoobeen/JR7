@@ -24,3 +24,23 @@ function twoNumber(num1, num2) {
 }
 
 twoNumber(17, 3)
+
+//? Please write a function that takes in a string and returns the length of the given string;
+//? Example => stringLength("I like bowling") should return 14
+
+var stringLengthFunction = function(string) {
+    console.log(string.length);
+}
+stringLengthFunction("I like bowling")
+
+//? Please write a function that takes in 2 strings and returns a single string with both strings combined;
+//? Example => addStrings("I like bowling", "only on the weekends") should return "I like bowling only on the weekends";
+
+var stringConcate = function(string1, string2) {
+    var newString = string1 + string2;
+    console.log(newString);
+}
+
+stringConcate("I like bowling ", "only on weekends")
+
+
