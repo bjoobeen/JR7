@@ -65,4 +65,31 @@ function objReturnKey(obj) {
 
 objReturnKey(Thing)
 
-//
+//Ex4 - make object
+
+// firstName
+// lastName
+// age,
+// favoriteCoffee,
+// codingLanguages => should be an array of languages you already know.
+
+var myself = {
+    firstName : "Bijan",
+    lastName : "Joobeen",
+    age : "36",
+    favoriteCoffee : "Boxcar",
+    codingLanguages : ["basic", "html", "css"]
+}
+
+// Create a addSkill() method that takes in a skill and adds it to your coding languages array.
+// I
+// O
+// C
+// E
+myself.addSkill = function(str) {
+    this.codingLanguages.push(str)
+}
+
+myself.addSkill("English");
+
+console.log(myself);
