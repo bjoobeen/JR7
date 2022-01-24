@@ -7,8 +7,8 @@
 function truncateString(str, num) {
     if (str.length <= num) {
         return str
-    }
-    return str.slice(0, num) + "..."
+    } else {
+    return str.slice(0, num) + "..."}
 }
 
 console.log(truncateString("A-tisket a-tasket A green and yellow basket", 8))
@@ -38,4 +38,31 @@ function divByThree(int) {
 
 console.log(divByThree(11));
 
+//EX3
 
+// keyList
+//
+// This function takes an object and returns a list of its keys,
+// not including the default keys of javascript objects.
+//
+// example usage
+// var Thing = {
+//  face: ‘big’,
+//  height: 6,
+//  legs: ‘none’
+//  }
+//
+
+var Thing = {
+      face: 'big',
+      height: 6,
+      legs: 'none'
+      }
+
+function objReturnKey(obj) {
+    console.log(Object.keys(obj));
+}
+
+objReturnKey(Thing)
+
+//
