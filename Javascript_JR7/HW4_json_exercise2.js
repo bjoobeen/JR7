@@ -1138,4 +1138,15 @@ var obj = {
     ]
    }
 
-console.log(obj);
+
+console.log(obj.items);
+
+var data = obj.items
+
+var count = 0;
+for (var i=0; i < data.length; i++) {
+    if (data[i].kind === "shopping#product") {
+        count += 1;
+    }
+    console.log(count);
+}
